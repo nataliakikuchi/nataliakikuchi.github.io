@@ -1,0 +1,57 @@
+
+
+.topbar ul li {
+    display: inline;
+    text-decoration: none;
+    color: white; 
+}
+
+nav.topbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: rgba(0,0,0,.3);
+}
+
+
+  a:link {
+      text-decoration: none;
+  }
+  
+header {
+    min-height: 100vh;
+    background: url(../img/bg-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover; /*a imagem se reajusta independente do tamanho do navegador*/
+    background-position: center bottom;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.sobre > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.desc-sobre {
+    max-width: 40%;
+    margin-left: 30px;
+}
+
+.passo-a-passo > div {
+    display: flex;
+    justify-content: center;
+}
+
+.passo-a-passo > h2 {
+    text-align: center;
+
+}
